@@ -92,7 +92,7 @@ Para garantizar que los datos generados cumplan con los principios de Linked Dat
 *Planteamiento:* Se desarrollará un vocabulario que defina los conceptos clave extraídos del CSV, tales como `Accidente`, `Vehiculo` y `Persona`. Para asegurar la interoperabilidad, se buscará el alineamiento con ontologías ampliamente aceptadas como **schema.org** para lugares (`schema:Place`) y **FOAF** para personas, además de vocabularios específicos de tiempo y geolocalización.
 
 ### e. Proceso de transformación
-*Planteamiento:* Se utilizará la herramienta **LOD Refine** para realizar la limpieza de datos descrita en el apartado 2.b. Tras la adecuación de caracteres y tipos, se configurará el "esqueleto RDF" mapeando las columnas del CSV con los términos de nuestro vocabulario y se exportará el resultado en sintaxis **Turtle**.
+*Planteamiento:* Se utilizará la herramienta **OpenRefine** para realizar la limpieza de datos descrita en el apartado 2.b. Tras la adecuación de caracteres y tipos, se configurará el "esqueleto RDF" mapeando las columnas del CSV con los términos de nuestro vocabulario y se exportará el resultado en sintaxis **Turtle**.
 
 ### f. Enlazado
 *Planteamiento:* Se llevarán a cabo tareas de enlazado externo mediante herramientas de reconciliación. El foco principal será la entidad `Distrito`, generando enlaces `owl:sameAs` hacia los recursos equivalentes en **DBpedia** para permitir el acceso a datos demográficos externos durante la fase de explotación.
